@@ -1,0 +1,130 @@
+.body {
+    margin-top: 1rem;
+    vertical-align: middle;
+    margin: 1rem  1.8rem;
+    
+}
+
+
+.payroll{
+    margin: 2rem 0rem;
+}
+
+.btn1Body {
+    border: none;
+    padding: 0;
+    background: none;
+    margin: 0rem 1rem;
+    padding: 4px;
+    margin-top: 16px;
+    vertical-align: top;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+.left-body {
+    display: flex;
+    max-width: 800px;
+}
+.para{
+    font-size: 1.2rem;
+}
+
+.btn2Body {
+    border: none;
+    padding: 17px;
+    background: none;
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.btn3Body {
+    margin: 4rem 4rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+.redeem{
+margin: 1rem 1rem;
+}
+.btn4Body{
+    border: none;
+    padding: 0;
+    background: none;
+    position: absolute;
+    margin: 5rem 0rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.right-body {
+   max-width: 700px;
+   display: flex;
+   position: absolute;
+   top:16rem; 
+   right: 0rem;
+   margin: 1rem  1rem;
+    
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.img{
+    max-width: 90%;
+    width: 25rem;
+    height: 17rem;
+    border: 6px solid rgba(0, 0, 0, 0.723);
+    margin-top: 4rem;
+}
+.top{
+    /* grid-column: 1 / span 8; */
+    grid-column: 4 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index:6;
+ }
+ .bottom{
+    /* grid-column: 4 / -1; */
+    grid-column:1/ span 8;
+    grid-row: 1;
+    z-index: 5;
+ }
+ .main{
+ 
+display: flex;
+margin: 0rem 30rem;
+margin-left: 0;
+align-items: start;
+max-width: 650px;
+ }
+ 
+
+.firstdiv{
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+.seconddiv{
+    margin: -1rem 1rem;
+    margin-left: 0rem;
+}
+
+
+.easy{
+    margin: 0rem 1.8rem;
+}
+.integrate{
+    margin: 0rem 4.1rem;
+}
+.compliance{
+    margin: 0rem 2rem;
+}

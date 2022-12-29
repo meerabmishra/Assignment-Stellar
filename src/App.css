@@ -1,0 +1,21 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+/* *{
+    margin: 1rem  0.8rem;
+} */
+ .border{
+    color: white;
+    background-color: rgb(8, 8, 106);
+}
+.arrow-down{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 6px;
+    margin-left: 0.6rem;
+}
